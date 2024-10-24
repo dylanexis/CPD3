@@ -31,12 +31,34 @@ def csv_to_html(csv_filename, output_folder):
 <title>{link_text}</title>
 <link rel="stylesheet" href="../css/reset.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
    <body>
    <a href = "#main">Skip to Main Content</a>
+   <!--Navbar-->
+   <div class ="navbar">
+      <a href ="index.html">Home</a>
+      <div class = "dropdown">
+         <button class = "dropbtn">More
+         <i class="fa fa-caret-down"></i>
+         </button>
+         <div class="dropdown-content">
+            <a href = "#summary">Summary</a>
+            <a href = "#team-results">Team Results</a>
+            <a href="#individual-results">Individual Results</a>
+            <a href="#gallery">Gallery</a>
+         </div>
+      </div>
+   </div>
+   
+   
    <nav>
      <ul>
-        <li><a href="index.html">Home Page</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#summary">Summary</a></li>
         <li><a href="#team-results">Team Results</a></li>
         <li><a href="#individual-results">Individual Results</a></li>
@@ -123,8 +145,6 @@ def csv_to_html(csv_filename, output_folder):
                      2552 North Maple Road<br>
                      Ann Arbor, MI 48103<br><br>
                     </address>
-                     <a href = "https://sites.google.com/aaps.k12.mi.us/skylinecrosscountry2021/home">XC Skyline Page</a><br>
-                    Follow us on Instagram <a href = "https://www.instagram.com/a2skylinexc/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i>  </a> 
 
 
                      </footer>
