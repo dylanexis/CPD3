@@ -31,7 +31,6 @@ def csv_to_html(csv_filename, output_folder):
 <title>{link_text}</title>
 <link rel="stylesheet" href="../css/reset.css">
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="stylesheet.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
